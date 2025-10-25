@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <Greeting name="Timon!" />
-      <Counter />
+      <Counter initialValue={0} />
       <ColorPicker data={colorcickerdata} />
     </>
   )
